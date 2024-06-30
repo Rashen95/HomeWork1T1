@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://db:5432/rashen-db
+    url: jdbc:postgresql://localhost:5432/rashen-db
     username: root
     password: root
   jpa:
