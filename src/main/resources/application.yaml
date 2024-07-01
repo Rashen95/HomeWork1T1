@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/rashen-db
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    open-in-view: true
