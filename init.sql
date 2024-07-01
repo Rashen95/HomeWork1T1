@@ -13,7 +13,7 @@ create schema my_schema
     create table my_schema.execution_times
     (
         id             bigserial,
-        method_name    varchar(50) not null,
+        method_name    varchar(300) not null,
         execution_time bigint      not null,
         primary key (id)
     );
